@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Лабороторна робота №12</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jqueri.js">
+    </script>
+  </head>
+  <body>
+    <div class="levels">
+      <fieldset>
+        <legend> Оберіть рівень тесту</legend>
+        <form class="formsLevels">
+        <div class="levelsChoise">
+          <input class="pointer" type="radio" name="levels" value="easy" id="Eze">
+          <label class="pointer" for="eze">light level</label>
+        </div>
+        <div class="levelsChoise">
+          <input class="pointer"type="radio" name="levels" value="medium" id="Medium">
+          <label class="pointer"for="medium">medium level</label>
+        </div>
+        <div class="levelsChoise">
+          <input class="pointer"type="radio" name="levels" value="hard" id="Hard">
+          <label class="pointer"for="hard">hard level</label>
+        </div>
+
+        </form>
+      </fieldset>
+
+    </div>
+<div class="question">
+  <div class="arrowLeft">
+    <p class="rofl"  id="arrowLeft"><</p>
+  </div>
+  <p class="textQuestion" id = "textQuestion">Натисніть кнопку, щоб почати</p>
+  <div class="arrowRight">
+    <p class="rofl" id="arrowRight">></p>
+  </div>
+</div>
+
+<p class="checked">Назад <span id ="checkedNumber">0</span>/10 Далі</p>
+    <form class="form">
+    <input class="input" type="text" name="text" placeholder="Write correct answer" id="text">
+    <button type="button" name="button" id="button">Переверка</button>
+    <button type="button" name="restart" id="restart">Оновити данні</button>
+    </form>
+    <div class="stat">
+      <p class="textStat">Статистика</p>
+      <p id="correct">Вірно <span id="win">0</span></p>
+      <p id="miss">Неправильно <span id="loss">0</span></p>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
