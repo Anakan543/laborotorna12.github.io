@@ -1,5 +1,5 @@
 const wordsEze = [
-{ english: "apple", ukraine: "яблоко" },
+{ english: "apple", ukraine: "яблуко" },
 { english: "book", ukraine: "книга" },
 { english: "cat", ukraine: "кіт" },
 { english: "dog", ukraine: "собака" },
